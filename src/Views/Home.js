@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Add from "../components/Add/Add";
 import Filter from "../components/Filter/Filter";
 import MovieList from "../components/MovieList/MovieList";
-import NavigationBar from "../components/Navigation/NavigationBar";
 
 const Home = () => {
   const [originalMovies, setOriginalMovies] = useState([
