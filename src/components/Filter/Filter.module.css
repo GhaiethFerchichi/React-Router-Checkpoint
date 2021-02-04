@@ -1,0 +1,19 @@
+.h1Style {
+  color: white;
+}
+.textBox {
+  border: 3px solid #aa5252;
+  width: auto;
+  height: 50px;
+  font-family: verdana, Arial, "sans serif";
+  color: #db0000;
+  /* background-color: Gray; */
+}
+
+.textBox:focus {
+  transform: scale(1.2);
+}
+
+.textBox:hover {
+  transform: scale(1.2);
+}

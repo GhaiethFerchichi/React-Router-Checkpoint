@@ -1,0 +1,56 @@
+.cardBorderWrap {
+  margin: 15px;
+  max-width: 600px;
+  min-width: 500px;
+  /* max-height: 150px; */
+  padding: 1rem;
+  background: linear-gradient(to right, #564d4d, #ffffff, #db0000);
+  padding: 3px;
+}
+.cardBorderWrap:hover {
+  transform: scale(1.01);
+  background: linear-gradient(
+    to right,
+    #db0000,
+    #000000,
+    #ffffff,
+    #564d4d,
+    #000000,
+    #831010
+  );
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  /* flex-wrap: wrap; */
+  background: #222;
+  color: white;
+  padding: 1rem;
+  flex-direction: row;
+}
+.poster {
+  width: 50%;
+}
+
+.btn {
+  background-color: #db0000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #831010;
+  color: white;
+}
+
+.btn:hover {
+  background: #831010;
+  color: white;
+}
+
+.description {
+  opacity: 0.5;
+}
+.description:hover {
+  opacity: 1;
+}

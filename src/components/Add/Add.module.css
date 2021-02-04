@@ -1,0 +1,23 @@
+.btn {
+  margin: 5px;
+  background-color: #db0000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #831010;
+  color: white;
+  height: 60px;
+}
+
+.btn:hover {
+  background: #831010;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
