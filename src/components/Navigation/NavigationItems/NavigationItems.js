@@ -4,10 +4,10 @@ import NavigationItem from "../NavigationItem/NavigationItem";
 import classes from "./NavigationItems.module.css";
 
 function NavigationItems() {
-  const linkPaths = ["Home", "News", "Contact", "About"];
+  const linkPaths = ["Movies", "AddMovie"];
   let navigationItemsWithLinks = null;
   navigationItemsWithLinks = linkPaths.map((el) => (
-    <NavigationItem link={el} />
+    <NavigationItem key={el} link={el} />
   ));
   return <ul className={classes.ul}>{navigationItemsWithLinks}</ul>;
 }
